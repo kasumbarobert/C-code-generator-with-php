@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<style type="text/css">
+	.error{
+		color: red;
+		font-style: italic;
+		font-size: 10px;
+		visibility: hidden;
+	}
+</style>
+<form name="form" onsubmit="value()">
+	<p>Name: <input type="textbox" id="names" name="check" onchange="validate()">
+	<span id="err" name="spans" class="error">Please don't use reserved words</span></p>
+	<p>Age: <input type="number" name="age"></p>
+	<p>Website:<input type="url" name="web"></p>
+	<p><input type="button" value="submit" id="submit" ></p>
+</form>
+<script type="text/javascript">
+var keywords = new Array('int','char','break','if','auto','double','struct','else','long','switch','case','enum',
+			'register','typedef','extern','return','union','const','float','short','unsigned','continue','for','signed',
+			'void','default','goto','sizeof','volatile','do','static','while','_Bool','_Complex','_Imaginary','inline',
+			'restrict','string');
+//var id = document.names.id
+
+function validate () {
+	var a = document.form.check.value;
+	for (var i = 0; i < keywords.length; i++) {
+		var b = keywords[i];
+		if (a === b) {
+			document.getElementById("err").style.visibility="visible";
+		} else{
+
+		};
+	};
+	if (a = "") {} else{};
+}
+
+</script>
+</body>
+</html>
+

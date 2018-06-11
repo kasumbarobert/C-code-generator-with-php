@@ -1,0 +1,18 @@
+<html><!-- We add html so that the document has properties like title -->
+<head>
+	<title>Upload problem</title>
+</head>
+<body>
+<form method="post" action="upload2.php" enctype="multipart/form-data" >
+	<p>Upload problem here: <br />
+		<textarea name="input" cols=55 rows=15 placeholder="You may type in the problem or upload a file\n(Only text files are supported i.e .txt)"></textarea>
+	</p>
+	<p>Select file: <input type="file" name="upload" size="30" placeholder=""></p>
+	<!--Note:
+		Deactivate the text area when one chooses to upload a file
+		such that someone doesn't type in the problem and also upload;
+		one has to choose only one -->
+	<p><input type="submit" name="" value="Upload"></p>
+</form>
+</body>
+</html>

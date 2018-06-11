@@ -1,0 +1,58 @@
+
+#generate_code_header ul li{
+	display:inline;
+	background-color:#eee;
+	border-radius:10px;
+}
+#generate_code_header ul li a{
+	text-decoration:none;
+}
+#generate_code_header ul li a:hover{
+	color:red;
+}
+
+#generate_code_header
+{
+	font-size:1.2em;
+	text-align:center;
+	margin-top:0.5%;
+}
+
+#statements_nav li{
+	display:block;
+	font-size:2em;
+}
+#add_print_div_1{
+padding-left:2%; 
+width:50%; 
+float:left;
+border:1px solid;
+font-size:1.2em; 
+background-color:#eee;}
+
+#add_print_div_2{
+padding-left:2%; 
+width:45%;
+float:left;
+border:1px solid;
+overflow:scroll;
+}
+
+#main_print{
+	height:100%;
+	display:inline;
+}
+
+div.code_preview{
+	font-size:1.3em;
+}
+
+body{
+	font-size:1em;
+}
+
+
+
+
+
+

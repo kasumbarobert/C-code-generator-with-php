@@ -1,0 +1,3 @@
+<br />Add the statement to <br />
+	<input type='radio' name='add_to' id='add_to_section' value='section' required='required'/><?php echo "Function ".$_SESSION['section'];?><br /><?php if(isset($_SESSION['if'])){echo"<input type='radio' name='add_to' id='add_to_decision' value='decision' required='required'/>Decision <br />";}?><?php if(isset($_SESSION['loop'])){echo "<input type='radio' name='add_to' id='add_to_repetition' value='repetition' required='required'/>Repetition<br />";}?>
+	<?php if(isset($_SESSION['switch_case'])){echo"<input type='radio' name='add_to' id='add_to_switch_case' value='switch' required='required'/>Case \"".$_SESSION['case_value']."\" in a switch<br /><br />";}?>

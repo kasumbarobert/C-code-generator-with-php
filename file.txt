@@ -1,0 +1,4 @@
+xdrdcgfhjnk ,.
+
+DEFINING DATA AND INFORMATION
+It is important to distinguish between data and information. Data is a raw fact and can take the form of a number or statement such as a date or a measurement. It is necessary for businesses to put in place procedures to ensure data are recorded. For example, to ensure  a call center operator include the  postcode  of  every customer this can be written into their script  and the validation check performed to check these data  have been entered   into the system.
